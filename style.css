@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+section, header, footer{
+    border: 1px solid red;
+}
+
+header {
+	width: 1152px;
+	margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+header nav ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+header nav ul li {
+	text-align: center;
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	width: 1152px;
+	margin: 0 auto;
+    display: grid;
+
+}
