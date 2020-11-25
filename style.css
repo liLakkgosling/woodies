@@ -2,15 +2,38 @@ body {
 	margin: 0;
 }
 section, header, footer{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 header {
 	width: 1152px;
-	margin: 0 auto;
+	margin: auto ;
     display: grid;
-    grid-template-columns: 250px auto;
+    grid-template-columns: 307px auto;
+    position: relative;
 }
+
+#bgPink {
+	position: absolute;
+	background: rgba(249, 189, 189, 1);
+	width: 370px;
+	height: 800px;
+	border-bottom-left-radius: 120px;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+header img {
+	margin-top: 23px;
+	margin-left: 80px;
+}
+header nav {
+	margin-top: 20px;
+	margin-right: 28px;
+	
+}
+
 
 header nav ul {
 	list-style: none;
@@ -25,6 +48,14 @@ header nav ul li {
 header nav ul li a {
 	text-decoration: none;
 	color: black;
+}
+/* padding на 36пх убивает кнопку*/
+#button {
+	color: rgba(62, 63, 67, 1);
+	background-color: rgba(249, 189, 189, 1);
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 9px 31px;
 }
 
 section {
