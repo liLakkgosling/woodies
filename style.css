@@ -5,7 +5,7 @@ body {
 
 }
 section, header, footer{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 }
 
@@ -110,7 +110,7 @@ section#home .txt{
 	padding: 0px 24px;
 	border: 0px;
 	border-radius: 8px;
-	padding: -4px 24px;
+	
 	text-align:center;
 	width: 175px;
 	height: 50px;
@@ -283,6 +283,110 @@ section#ABOUTUS img#bigFlower2{
 
 }
 
+/*3 SECTION*/
 
+section#hOWiTwORKS header{
+	display: grid;
+	grid-template-columns: 125px 265px 70px auto;
+	position: relative;
+}
+
+section#hOWiTwORKS  header img{
+	display: grid;
+	margin-right: 0px;
+	margin-top: 34px;
+}
+
+section#hOWiTwORKS  header h2{
+	font-size: 36px;
+	font-style: bold;
+	margin-top: 24px; 
+	margin-bottom: 0px;
+	width: 254px;
+}
+
+section#hOWiTwORKS  header div.divider2{
+	border-bottom: 2px solid black;
+	height: 1px;
+	width: 60px;
+	margin-top: 49px;
+}
+
+section#hOWiTwORKS  header p{
+	font-size: 72px;
+	opacity: .1;
+	font-style: bold;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+section#hOWiTwORKS div.images {
+	position: relative;
+	height: auto;
+}
+
+section#hOWiTwORKS div.images ul {
+	display: grid;
+	list-style: none;
+	grid-template-columns:repeat(4,1fr); 
+}
+
+section#hOWiTwORKS div.images ul li{
+	position: relative;
+	height: 150px;
+}
+
+section#hOWiTwORKS div.images ul li img {
+	position: relative;
+	
+	left: 40px;
+
+
+}
+
+section#hOWiTwORKS div.images ul li p#b{
+	position: absolute;
+	margin: 0px;
+	width: 1px;
+	top: 35px;
+	font-style: bold;
+	font-size: 96px;
+	opacity: 50%;
+	color: #F9BDBD;
+
+}
+
+
+
+section#hOWiTwORKS div.images ul li p#a{
+	position: relative;
+	font-weight: bold;
+	font-size: 24px;
+	text-align:left;
+	margin-left: 10px;
+	font-style: bold;
+}
+
+section#hOWiTwORKS div.images button{
+	position: relative;
+	left: 470px;
+	bottom: 60px;
+
+	padding: 0px 24px;
+	border: 0px;
+	border-radius: 4px;
+	
+
+	width: 212px;
+	height: 50px;
+	background: #DAA520;
+}
+
+section#hOWiTwORKS div.images button p{
+	width: 164px;
+	height: 22px;
+	color: white;
+	text-align:center;
+}
 
 
