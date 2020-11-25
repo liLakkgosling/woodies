@@ -1,9 +1,12 @@
 body {
 	margin: 0;
 	font-family: Nunito;
+
+
 }
 section, header, footer{
     border: 1px solid red;
+
 }
 
 header {
@@ -67,6 +70,7 @@ section {
 	margin: 0 auto;
     display: grid;
     position: relative;
+    
 
 
 }
@@ -139,6 +143,7 @@ section#home img#bigFlower{
 section#ABOUTUS  header{
 	display: grid;
 	grid-template-columns: 125px 215px 400px auto;
+	position: relative;
 }
 
 section#ABOUTUS  header img{
@@ -168,6 +173,116 @@ section#ABOUTUS  header p{
 	margin-top: 0px; 
 	margin-bottom: 0px;
 }
+
+section#ABOUTUS div.container{
+	grid-template-columns: repeat(1,1fr);
+	}
+
+section#ABOUTUS div.LV{
+	
+	display: grid;
+	grid-template-columns: 604px auto;
+	grid-template-rows: 500px auto ;
+	position: relative;
+}
+
+section#ABOUTUS div.LV img#V {
+	
+	position: relative;
+	left: 138px;
+	top: 150px;
+
+}
+
+section#ABOUTUS div.LV div.wood{
+	position: relative;
+	
+
+}
+
+section#ABOUTUS div.LV div.wood p#woo{
+	position: relative;
+	top:169px;
+	width: 448px;
+	height: 98px;
+	margin: 0px;
+	font-size: 36px;
+}
+
+section#ABOUTUS div.LV div.wood p#the{
+	position: relative;
+	top:180px;
+	width: 404px;
+	height: 66px;
+	margin: 0px;
+	font-size: 24px;
+	font-style: bold;
+}
+
+section#ABOUTUS div.VL{
+	display: grid;
+	grid-template-columns: 754px auto;
+	grid-template-rows: 400px auto;
+	position: relative;
+
+}
+
+section#ABOUTUS div.VL div.custom{
+	
+	position: relative;
+	left: 100px;
+	width: 648px;
+}
+
+section#ABOUTUS div.VL div.custom p#cust{
+	position: relative;
+	top:87px;
+	
+	height: 49px;
+	margin: 0px;
+	font-size: 36px;
+}
+
+section#ABOUTUS div.VL div.custom p#Get{
+	position: relative;
+	top:100px;
+	
+	height: 66px;
+	margin: 0px;
+	font-size: 24px;
+	font-style: bold;
+}
+
+section#ABOUTUS div.VL img{
+	position: relative;
+	left: 112px;
+	top: 0px;
+	margin: 0px;
+}
+
+.bgorange {
+	position: absolute;
+	background: #F7DEA6;
+	width: 278px;
+	height: 388px;
+	left: 100px;
+	top: 70px;
+	border-bottom-left-radius: 120px;
+	border-top-right-radius: 120px;
+	z-index: -1;
+
+}
+
+section#ABOUTUS img#bigFlower2{
+	position: absolute;
+	width: 382px;
+	height: 382px;
+	left: 0px;
+	top: 392px;
+	z-index: -1;
+
+}
+
 
 
 
