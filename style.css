@@ -42,7 +42,7 @@ header nav {
 header nav ul {
 	list-style: none;
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(5, 1fr) auto;
 }
 header nav ul li {
 	text-align: center;
@@ -134,4 +134,40 @@ section#home img#bigFlower{
 	z-index: -1;
 
 }
+													/*SECOND SECTION*/
+
+section#ABOUTUS  header{
+	display: grid;
+	grid-template-columns: 125px 215px 400px auto;
+}
+
+section#ABOUTUS  header img{
+	display: grid;
+	margin-right: 0px;
+	margin-top: 34px;
+}
+
+section#ABOUTUS  header h2{
+	font-size: 36px;
+	font-style: bold;
+	margin-top: 24px; 
+	margin-bottom: 0px;
+}
+
+section#ABOUTUS  header div.divider{
+	border-bottom: 2px solid black;
+	height: 1px;
+	width: 400px;
+	margin-top: 49px;
+}
+
+section#ABOUTUS  header p{
+	font-size: 72px;
+	opacity: .1;
+	font-style: bold;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+
 
