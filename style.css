@@ -5,7 +5,7 @@ body {
 
 }
 section, header, footer{
-    border: 1px solid red;
+   /* border: 1px solid red;*/
 
 }
 
@@ -70,9 +70,6 @@ section {
 	margin: 0 auto;
     display: grid;
     position: relative;
-    
-
-
 }
 										/*FIRST SECTION*/
 section#home {
@@ -443,7 +440,7 @@ section#CATEGORIES div ul div.karta1{
 
 section#CATEGORIES div ul div.karta1 img{
 	position: relative;
-	left: 57px;
+	
 	margin-bottom: 15px;
 }
 
@@ -715,6 +712,47 @@ section#TESTIMONY div#karta8 div.navig div.serf1{
 #b4 {
 	background: #E5E5E5;
 }
+
+
+footer {
+	width: 1152px;
+	margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+footer img{
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+#awoo {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+}
+.liniafoot {
+	position: absolute;
+}
+
+footer div.txtInput {
+	margin: 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+footer div.list {
+	margin: 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,1fr) 330px;
+}
+
+
 
 
 
