@@ -509,14 +509,7 @@ section#CATEGORIES div ul div.karta5 img{
 section#CATEGORIES div ul p#c {
 
 
-section#CATEGORIES div ul div.karta1{
-	background: #F9BDBD;
-	width: 280px;
-	height: 400px;
-	border-bottom-left-radius: 120px;
-	border-top-right-radius: 120px;
-
-}	font-style: bold;
+	font-style: bold;
 	font-size: 24px;
 	left: 15px;
 	position: relative;
@@ -534,3 +527,202 @@ section#CATEGORIES div ul p#d {
 	padding: 8px 19px;
 
 }
+
+										/*5 SECTION*/
+
+
+
+section#TESTIMONY {
+	display: grid;
+	grid-template-rows: repeat(1,1fr);
+	grid-row-gap: 50px; 
+	position: relative;
+
+}
+
+section#TESTIMONY  header{
+	display: grid;
+	grid-template-columns: 125px 240px 305px auto;
+	position: relative;
+}
+
+section#TESTIMONY  header img{
+	display: grid;
+	margin-right: 0px;
+	margin-top: 34px;
+}
+
+section#TESTIMONY  header h2{
+	font-size: 36px;
+	font-style: bold;
+	margin-top: 24px; 
+	margin-bottom: 0px;
+}
+
+section#TESTIMONY  header div.divider4{
+	border-bottom: 2px solid black;
+	height: 1px;
+	width: 305px;
+	margin-top: 49px;
+}
+
+section#TESTIMONY  header p{
+	font-size: 72px;
+	opacity: .1;
+	font-style: bold;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+section#TESTIMONY div#last{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 700px;
+}
+
+section#TESTIMONY div#karta6 img {
+	
+	width: 280px;
+	height: 400px;
+	border-top-left-radius: 120px;
+	border-bottom-right-radius: 120px;
+}
+
+section#TESTIMONY div#karta7 img{
+	width: 280px;
+	height: 400px;
+	border-top-left-radius: 120px;
+	border-bottom-right-radius: 120px;
+}
+
+section#TESTIMONY div#karta8{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	position: relative;
+	height: 500px;
+}
+
+section#TESTIMONY div#karta8 div#coment{
+	border:1px solid blue;
+	border-bottom-left-radius: 38.2%;
+	border-top-right-radius: 38.2%;
+	width: 395px;
+	height: 350px;
+	grid-template-rows: 60px 120px 80px;
+	display: grid;
+	position: relative;
+
+}
+
+section#TESTIMONY div#karta8 div#coment div#star{
+	position: relative;
+	top: 40px;
+	left: 20px;
+	height: 24px;
+	width: 136px;
+}
+.checked {
+    color: orange;
+}
+
+section#TESTIMONY div#karta8 div#coment div#comentt{
+	position: relative;
+	
+
+	left: 20px;
+	
+}
+
+section#TESTIMONY div#karta8 div#coment div#comentt p#comenttt{
+	position: relative;
+	
+	
+	font-style: bold;
+	font-size: 14px;
+	width: 350px;
+}
+
+section#TESTIMONY div#karta8 div#coment div#name{
+	position: relative;
+	display: grid;
+	grid-template-columns: 60px auto;
+	
+}
+
+section#TESTIMONY div#karta8 div#coment div#cerc img{
+	position: relative;
+	top: 10px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:0px solid ; 
+	
+}
+
+section#TESTIMONY div#karta8 div#coment p#person{
+	position: relative;
+	top: 0px;
+	left: 10px;
+	width: 84px;
+
+	font-style: bold;
+	font-size: 12px;
+	color: #AFAFAF;
+}
+
+section#TESTIMONY div#karta8 div.navig{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	position: relative;
+}
+
+section#TESTIMONY div#karta8 div.navig p#Next{
+	text-align: right;
+	position: relative;
+	font-style: bold;
+}
+
+section#TESTIMONY div#karta8 div.navig div.serf{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 10px;
+	width: 200px;
+	height: 20px;
+	position: relative;
+	left: 190px;
+	
+
+}
+section#TESTIMONY div#karta8 div.navig div.serf1{
+	border:0px solid;
+	width: 40px;
+	height: 8px;
+	border-radius: 8px;
+}
+#b1 {
+	background: #DAA520;
+}
+#b2 {
+	background: #E5E5E5;
+}
+#b3 {
+	background: #E5E5E5;
+}
+#b4 {
+	background: #E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+
+
