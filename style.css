@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: Nunito;
+	font-family: 'Nunito', sans-serif;
 
 
 }
@@ -727,12 +727,13 @@ footer img{
 	position: absolute;
 	left: 0px;
 	right: 0px;
+
 }
 
 #awoo {
 	position: absolute;
-	bottom: 30px;
-	left: 50%;
+	bottom: 35px;
+	left: 35%;
 }
 .liniafoot {
 	position: absolute;
@@ -744,12 +745,47 @@ footer div.txtInput {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+footer div.txtInput label{
+	position: relative;
+	top: 60px;
+
+}
+
+footer div.txtInput label input{
+	border-color: yellow;
+	height: 40px;
+	margin:0px;
+
+}
+
+#send{
+	background: #DAA520;
+	padding: 9px 24px;
+	margin: 0px;
+}
+
+#bo {
+	position: relative;
+	top: 50px;
+}
 
 footer div.list {
 	margin: 0px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(5,1fr) 330px;
+    height: 380px;
+   	
+}
+
+footer div.list ul {
+	position: relative;
+	top: 100px;
+	list-style: none;
+}
+
+#wowo{
+	margin-bottom: 50px;
 }
 
 
